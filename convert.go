@@ -1,8 +1,8 @@
 package main
 
 import (
-	"Md2html/internal"
 	"fmt"
+	"mdup/internal"
 	"os"
 )
 

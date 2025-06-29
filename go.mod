@@ -1,3 +1,3 @@
-module Md2html
+module mdup
 
 go 1.24

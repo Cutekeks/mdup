@@ -6,6 +6,17 @@ import (
 
 func ConvertHTML(content ParsedContent) string {
 	var sb strings.Builder
+	sb.WriteString(`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+`)
 	for _, element := range content.Elements {
 		switch element.Type {
 		case Header1:

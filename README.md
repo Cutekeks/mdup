@@ -1,6 +1,6 @@
 # mdup
 Simple Markdown to HTML converter
 
-´´´ shell
+´´´console
 mdup convert --input input.md --output output.html
 ´´´
